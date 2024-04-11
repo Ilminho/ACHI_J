@@ -13,7 +13,7 @@ import random
 import uuid
 
 # Choosing device
-device = "cuda:0"
+device = "cpu"
 print(f"Using device: {device}")
 
 # LLM model init
@@ -23,7 +23,7 @@ tokenizer = AutoTokenizer.from_pretrained(llm_model_name)
 model = AutoModelForCausalLM.from_pretrained(
 	llm_model_name,
 	device_map=device,
-	load_in_4bit=True
+	#load_in_4bit=True
 )
 
 # Sentiment analysis
@@ -35,7 +35,7 @@ sentiments = ["negative", "neutral", "positive"]
 # Generate response from prompt and parse only the response
 def generate_response(prompt):
 	model_inputs = tokenizer(
-	[prompt],
+		[prompt],
 		return_tensors="pt",
 		return_token_type_ids=False,
 	)
@@ -56,11 +56,16 @@ def generate_response(prompt):
 	response.replace("\t","")
 
 	return response
-    
+	
 if __name__ == "__main__":
-	news_per_test = 7
 
-	final_json = {}
+
+	num_tests = 5
+	news_per_test = 2
+
+	final_json = {
+		"tests": []
+	}
 
 	# Get the topics
 	with open("topics.txt", "r") as f:
@@ -69,86 +74,90 @@ if __name__ == "__main__":
 	for i in range(len(topics)):
 		topics[i] = topics[i].replace("\n", "")
 
-	caseId = str(uuid.uuid4())
 
-	test_case = {}
-	test_case["testcaseId"] = caseId
-	test_case["content"] = []
-	test_case["truePositiveness"] = None
-	test_case["sentimentEstimate"] = None
-	test_case["humanEstimate"] = []
-	test_case["averageHumanEstimate"] = None
+	for j in range(num_tests):
 
-	true_pos = 0
-	sentiment_est = 0
+		caseId = str(uuid.uuid4())
 
-	# Generate test cases
-	for i in range(news_per_test):
+		test_case = {}
+		test_case["testcaseId"] = caseId
+		test_case["content"] = []
+		test_case["truePositiveness"] = None
+		test_case["sentimentEstimate"] = None
+		test_case["humanEstimate"] = []
+		test_case["averageHumanEstimate"] = None
 
-		# Generate news
-		subject = random.choice(topics)
-		sentiment = sentiments[1]
+		true_pos = 0
+		sentiment_est = 0
 
-		question = f"Generate a news headline and a lead to a news about {subject} in a {sentiment} tone"
+		# Generate test cases
+		for i in range(news_per_test):
 
-		prompt =	f"""
-				<s>[INST] <<SYS>>
-				{system_prompt}
+			# Generate news
+			subject = random.choice(topics)
+			sentiment = sentiments[1]
 
-				{question}
+			question = f"Generate a news headline and a lead to a news about {subject} in a {sentiment} tone"
 
-				Give the answer the the following format:
-				Headline:
-				Lead:
+			prompt =	f"""
+					<s>[INST] <<SYS>>
+					{system_prompt}
 
-				Both the lead and the headline should be in quotes
-				[/INST]
-				"""
+					{question}
 
-		prompt.replace("\t", "")
+					Give the answer the the following format:
+					Headline:
+					Lead:
+
+					Both the lead and the headline should be in quotes
+					[/INST]
+					"""
+
+			prompt.replace("\t", "")
 
 
-		response = generate_response(prompt)
-		response = response.replace("\t", "")
-		response = response.replace("Headline:", "")
-		response = response.replace("Lead:", "")
-		response = response.replace("</s>", "")
-		response = response.replace("\"", "")
+			response = generate_response(prompt)
+			response = response.replace("\t", "")
+			response = response.replace("Headline:", "")
+			response = response.replace("Lead:", "")
+			response = response.replace("</s>", "")
+			response = response.replace("\"", "")
 
-		sentiment = sentiment_analyzer(response)
+			sentiment = sentiment_analyzer(response)
 
-		response = response.split("\n")
+			response = response.split("\n")
 
-		news = {}
+			news = {}
+			
+			texts = []
+			for s in response:
+				if (len(texts) == 2):
+					break
+				if (s != ""):
+					texts.append(s.strip())
+			news["newsId"] = str(uuid.uuid4())
+			news["header"] = texts[0]
+			news["leadText"] = texts[1]
 
-		texts = []
-		for s in response:
-			if (len(texts) == 2):
-				break
-			if (s != ""):
-				texts.append(s.strip())
-                
-		news["newsId"] = str(uuid.uuid4())
-		news["header"] = texts[0]
-		news["leadText"] = texts[1]
-	
-	if (sentiment[0]["label"] == "POSITIVE"):
-			sent = True
-			true_pos += 1
-			sentiment_est += sentiment[0]["score"]
-		else:
-			sent = False
-			sentiment_est += 1 - sentiment[0]["score"]
+			if (sentiment[0]["label"] == "POSITIVE"):
+				sent = True
+				true_pos += 1
+				sentiment_est += sentiment[0]["score"]
+			else:
+				sent = False
+				sentiment_est += 1 - sentiment[0]["score"]
 
-		news["negativePositive"] = sent
+			news["negativePositive"] = sent
 
-		test_case["content"].append(news)
+			test_case["content"].append(news)
 
-	test_case["truePositiveness"] = true_pos / news_per_test
-	test_case["sentimentEstimate"] = sentiment_est / news_per_test
+		test_case["truePositiveness"] = true_pos / news_per_test
+		test_case["sentimentEstimate"] = sentiment_est / news_per_test
 
-	pprint.pp(test_case)
+		final_json["tests"].append(test_case)
 
-	json_obj = json.dumps(test_case, indent=4)
+	pprint.pp(final_json)
+
+	json_obj = json.dumps(final_json, indent=4)
 	with open("TestCase.json", "w") as f:
 		f.write(json_obj)
