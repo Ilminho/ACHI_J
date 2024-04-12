@@ -1,7 +1,6 @@
 import News from "./News";
 
 function App() {
-  console.log("Rendering APP....");
   return (
     <div>
       <header style={{ borderBottom: 'grey solid 3px'}}>

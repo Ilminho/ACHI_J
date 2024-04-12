@@ -69,7 +69,6 @@ function News() {
     )
   }
   if (finished) {
-    console.log("Render this shit");
     return (
       <div style={{ padding: '1.5rem', textAlign: 'center' }}>
         <h1>Thank you for participating!</h1>
