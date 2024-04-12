@@ -18,11 +18,10 @@ app.get('/testcase', (req, res) => {
         res.statusCode = 200;
         res.json({"finished": true})
     }
-    const randomTestcase = testCase.tests[index];
+    const Testcase = testCase.tests[index];
     index = index + 1
-    console.log(randomTestcase);
     res.statusCode = 200;
-    res.json(randomTestcase);
+    res.json(Testcase);
 });
 
 app.post('/result', (req,res) => {
