@@ -4,19 +4,18 @@ function News() {
   const [content, setContent] = useState(null);
   const [error, setError] = useState(null);
   const [opinion, setOpinion] = useState(3);
-  const [opinionSubmitted, setOpinionSubmitted] = useState(false);
-  const [finish, setFinish] = useState(false); // MILLON LOPPUU?
-  const [testCases, setTestCases] = useState([]);
+  const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3001/news')
+    fetch('http://localhost:3001/testcase')
         .then(response => response.json())
         .then(data => {
-          if (testCases.includes(data.testCaseId)) {
-            // MITÄS NYT?
-          }
           console.log(data);
-          setContent(data)
+          if (data.finished) {
+            setFinished(true);
+          } else {
+            setContent(data);
+          }
         })
         .catch(error => {
           console.error('Error fetching news:', error)
@@ -27,10 +26,10 @@ function News() {
   const handleSubmit = () => {
     const payload = {
       testCaseId: content.testCaseId,
-      userOpinion: (opinion - 1) / 4
+      opinion: (opinion - 1) / 4
     };
 
-    fetch('http://localhost:3001/opinion', {
+    fetch('http://localhost:3001/result', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -39,60 +38,44 @@ function News() {
     })
     .then(response => response.json())
     .then(data => {
-        addTestCase(content.testCaseId);
-        setOpinionSubmitted(true);
-        console.log('Success:', data);
-        //alert("Opinion submitted successfully!");
-        setFinish(true);
-        // KATO TÄÄ VIEL
-        /* if (finish) {
-          alert("Thank you for participating!")
-        } else {
-          fetch('http://localhost:3001/news')
-          .then(response => response.json())
-          .then(data => {
-              setContent(data)
-          })
-          .catch(error => {
-            console.error('Error fetching news:', error);
-            setError(error);
-          });
-        } */
+        fetch('http://localhost:3001/testcase')
+        .then(response => response.json())
+        .then(data => {
+          if (data.finished) {
+            console.log("Finished");
+            setFinished(true);
+          } else {
+            setContent(data)
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching news:', error);
+          setError(error);
+        });
     })
     .catch(error => {
-        console.error('Error:', error);
-        //alert("Error submitting opinion!");
-        setError(error.message);
+        console.error('Error submitting opinion:', error);
+        setError(error);
     });
   };
 
-  const addTestCase = (testCaseNumber) => {
-    setTestCases((prevTestCases) => {
-      if (prevTestCases.includes(testCaseNumber)) {
-        return prevTestCases;
-      }
-      return [...prevTestCases, testCaseNumber];
-    })
-  }
-
-
-  if (finish) {
-    return (
-      <div style={{ padding: '1.5rem', textAlign: 'center' }}>
-        <h1>Thank you for participating!</h1>
-      </div>
-    )
-  }
   if (error) {
     return (
       <div style={{ padding: '1.5rem', textAlign: 'center' }}>
-        <h1>Error fetching the news</h1>
+        <h1>Error</h1>
         <h2>Error message:</h2>
         {error.message}
       </div>
     )
   }
-  if (!content) {
+  if (finished) {
+    console.log("Render this shit");
+    return (
+      <div style={{ padding: '1.5rem', textAlign: 'center' }}>
+        <h1>Thank you for participating!</h1>
+      </div>
+    )
+  } else if (!content) {
     return (
       <div style={{ padding: '1.5rem' }}>
       </div>
@@ -130,7 +113,6 @@ function News() {
           <button 
               style={{ padding: '8px', fontSize: '22px', backgroundColor: 'lightblue', fontWeight: '600', marginTop: '1rem' }}
               onClick={handleSubmit}
-              disabled={opinionSubmitted}
           >
               Submit Opinion
           </button>
