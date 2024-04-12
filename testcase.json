@@ -1,0 +1,122 @@
+{
+  "tests": [
+    {
+      "testcaseId": "e4d3fb2c-a079-4aae-ab10-7744c366505c",
+      "content": [
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "negativePositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "negativePositive": false
+        }
+      ],
+      "truePositiveness": 0.5,
+      "sentimentEstimate": 0.5799318552017212,
+      "humanEstimate": [
+        0.5,
+        0.4,
+        0.3,
+        0.95,
+        0.95,
+        0.95,
+        0.95
+      ],
+      "averageHumanEstimate": 0.7142857142857143
+    },
+    {
+      "testcaseId": "cfb702cb-24dc-42d4-b22e-d4cbc6dbdd71",
+      "content": [
+        {
+          "newsId": "34e8aaca-5d2b-40a8-82bc-2fa70f9efd55",
+          "header": "Record Inflation Rate Continues to Concern Economists",
+          "leadText": "The latest data on consumer prices shows a record inflation rate of 3.5% in the past year, sparking concerns among economists and policymakers.",
+          "negativePositive": true
+        },
+        {
+          "newsId": "c8194eb6-4ec8-487d-b42d-fd6ca56d33ef",
+          "header": "Oil Spill in the Gulf of Mexico Impacts Coastal Ecosystems",
+          "leadText": "A recent oil spill in the Gulf of Mexico has caused significant damage to coastal ecosystems, with impacts felt for miles along the shoreline.",
+          "negativePositive": false
+        }
+      ],
+      "truePositiveness": 0.5,
+      "sentimentEstimate": 0.7408149242401123,
+      "humanEstimate": [
+        0.3,
+        0.9,
+        0.9,
+        0.95
+      ],
+      "averageHumanEstimate": 0.7625
+    },
+    {
+      "testcaseId": "c8f497b0-f496-4da1-a2bc-4e0e4413ada5",
+      "content": [
+        {
+          "newsId": "5b7f3f36-16d0-4392-a33f-88f9b8f01bb2",
+          "header": "Record Inflation Rates Continue to Affect Global Economy",
+          "leadText": "According to the latest data released by the International Monetary Fund (IMF), the global economy has been facing an unprecedented rise in inflation rates, with some countries experiencing record highs in recent months.",
+          "negativePositive": true
+        },
+        {
+          "newsId": "5c028f48-2b45-4604-9e8c-01f27658e0eb",
+          "header": "Record Inflation Reaches Highest Level in Decades",
+          "leadText": "The latest inflation data has revealed that the cost of living has increased at the fastest pace in decades, with prices rising across a wide range of goods and services. According to the data, the consumer price index (CPI) has increased by 3.5% in the past year, exceeding analysts",
+          "negativePositive": true
+        }
+      ],
+      "truePositiveness": 1,
+      "sentimentEstimate": 0.9349194169044495,
+      "humanEstimate": [],
+      "averageHumanEstimate": null
+    },
+    {
+      "testcaseId": "b0af6d89-3a69-450b-beaa-b31c5f182a26",
+      "content": [
+        {
+          "newsId": "fd285f5a-3a8d-411e-890f-ec5b2e23a03d",
+          "header": "Oil Spill in Marine Sanctuary Raises Concerns",
+          "leadText": "A recent oil spill in a protected marine sanctuary has sparked concerns among environmentalists and local communities, with many calling for swift action to minimize the damage to the area's delicate ecosystem.",
+          "negativePositive": true
+        },
+        {
+          "newsId": "4cf89467-e3f4-43ba-9133-d3b2981e2f45",
+          "header": "Record Inflation Rates Continue to Surprise Economists",
+          "leadText": "The latest inflation data has revealed that consumer prices have risen at the fastest pace in over a decade, with economists warning of potentially serious consequences for the economy.",
+          "negativePositive": true
+        }
+      ],
+      "truePositiveness": 1,
+      "sentimentEstimate": 0.866511195898056,
+      "humanEstimate": [],
+      "averageHumanEstimate": null
+    },
+    {
+      "testcaseId": "048e812b-2872-4d2f-90da-2bc4d844a43b",
+      "content": [
+        {
+          "newsId": "0832f128-e45d-4f23-a06b-5d414191990d",
+          "header": "Oil Spill in Gulf of Mexico Fuels Concerns for Marine Life",
+          "leadText": "A recent oil spill in the Gulf of Mexico has sparked concerns for the region's marine life, with experts warning of the potentially devastating effects on the environment. The spill, which occurred last weekend, is believed to have been caused by a pipeline rupture, and has already",
+          "negativePositive": false
+        },
+        {
+          "newsId": "9ec547e4-ed68-4374-841d-f3b0d50a4737",
+          "header": "Record Inflation Rates Continue to Climb Across Global Economy",
+          "leadText": "The global economy has been experiencing a surge in inflation rates, with no signs of slowing down in the near future, according to a recent report by the International Monetary Fund (IMF).",
+          "negativePositive": false
+        }
+      ],
+      "truePositiveness": 0,
+      "sentimentEstimate": 0.05782198905944824,
+      "humanEstimate": [],
+      "averageHumanEstimate": null
+    }
+  ]
+}
