@@ -25,7 +25,7 @@ function News() {
 
   const handleSubmit = () => {
     const payload = {
-      testCaseId: content.testCaseId,
+      testCaseId: content.testcaseId,
       opinion: (opinion - 1) / 4
     };
 
@@ -83,7 +83,7 @@ function News() {
     return (
       <div style={{ padding: '1rem' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-              {content.news.map((item, index) => (
+              {content.content.map((item, index) => (
                   <div 
                       key={item.newsId}
                       style={{ width: '20%', padding: '1.5rem', border: 'grey solid 1.5px', margin: '1rem', backgroundColor: 'whitesmoke' }}
