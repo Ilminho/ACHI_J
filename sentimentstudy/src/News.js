@@ -58,6 +58,11 @@ function News() {
         setError(error);
     });
   };
+  
+  const newTest = () => {
+    setFinished(false)
+    handleSubmit()
+  }
 
   if (error) {
     return (
@@ -72,6 +77,12 @@ function News() {
     return (
       <div style={{ padding: '1.5rem', textAlign: 'center' }}>
         <h1>Thank you for participating!</h1>
+        <button 
+              style={{ padding: '8px', fontSize: '22px', backgroundColor: 'lightblue', fontWeight: '600', marginTop: '1rem' }}
+              onClick={newTest}
+        >
+              New test
+        </button>
       </div>
     )
   } else if (!content) {

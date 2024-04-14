@@ -17,6 +17,8 @@ app.get('/testcase', (req, res) => {
     if (index > testCase.tests.length-1){
         res.statusCode = 200;
         res.json({"finished": true})
+        index = 0
+        return
     }
     const Testcase = testCase.tests[index];
     index = index + 1
