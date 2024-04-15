@@ -13,7 +13,7 @@ import random
 import uuid
 
 # Choosing device
-device = "cpu"
+device = "cuda:0"
 print(f"Using device: {device}")
 
 # LLM model init
@@ -23,14 +23,14 @@ tokenizer = AutoTokenizer.from_pretrained(llm_model_name)
 model = AutoModelForCausalLM.from_pretrained(
 	llm_model_name,
 	device_map=device,
-	#load_in_4bit=True
+	load_in_4bit=True
 )
 
 # Sentiment analysis
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 # Global variables
-sentiments = ["negative", "neutral", "positive"]
+sentiments = ["negative", "positive"]
 
 # Generate response from prompt and parse only the response
 def generate_response(prompt):
@@ -60,8 +60,8 @@ def generate_response(prompt):
 if __name__ == "__main__":
 
 
-	num_tests = 5
-	news_per_test = 2
+	num_tests = 7
+	news_per_test = 6
 
 	final_json = {
 		"tests": []
@@ -82,7 +82,6 @@ if __name__ == "__main__":
 		test_case = {}
 		test_case["testcaseId"] = caseId
 		test_case["content"] = []
-		test_case["truePositiveness"] = None
 		test_case["sentimentEstimate"] = None
 		test_case["humanEstimate"] = []
 		test_case["averageHumanEstimate"] = None
@@ -95,7 +94,7 @@ if __name__ == "__main__":
 
 			# Generate news
 			subject = random.choice(topics)
-			sentiment = sentiments[1]
+			sentiment = random.choice(sentiments)
 
 			question = f"Generate a news headline and a lead to a news about {subject} in a {sentiment} tone"
 
@@ -147,7 +146,7 @@ if __name__ == "__main__":
 				sent = False
 				sentiment_est += 1 - sentiment[0]["score"]
 
-			news["negativePositive"] = sent
+			news["isPositive"] = sent
 
 			test_case["content"].append(news)
 
