@@ -25,9 +25,16 @@
         0.95,
         0.95,
         0.95,
-        0.95
+        0.95,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        0.5
       ],
-      "averageHumanEstimate": 0.7142857142857143
+      "averageHumanEstimate": 0.6785714285714286
     },
     {
       "testcaseId": "cfb702cb-24dc-42d4-b22e-d4cbc6dbdd71",
@@ -51,9 +58,17 @@
         0.3,
         0.9,
         0.9,
-        0.95
+        0.95,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5
       ],
-      "averageHumanEstimate": 0.7625
+      "averageHumanEstimate": 0.6708333333333334
     },
     {
       "testcaseId": "c8f497b0-f496-4da1-a2bc-4e0e4413ada5",
@@ -73,8 +88,17 @@
       ],
       "truePositiveness": 1,
       "sentimentEstimate": 0.9349194169044495,
-      "humanEstimate": [],
-      "averageHumanEstimate": null
+      "humanEstimate": [
+        0.25,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5
+      ],
+      "averageHumanEstimate": 0.59375
     },
     {
       "testcaseId": "b0af6d89-3a69-450b-beaa-b31c5f182a26",
@@ -94,8 +118,17 @@
       ],
       "truePositiveness": 1,
       "sentimentEstimate": 0.866511195898056,
-      "humanEstimate": [],
-      "averageHumanEstimate": null
+      "humanEstimate": [
+        0.75,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5
+      ],
+      "averageHumanEstimate": 0.65625
     },
     {
       "testcaseId": "048e812b-2872-4d2f-90da-2bc4d844a43b",
@@ -115,8 +148,20 @@
       ],
       "truePositiveness": 0,
       "sentimentEstimate": 0.05782198905944824,
-      "humanEstimate": [],
-      "averageHumanEstimate": null
+      "humanEstimate": [
+        0.75,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5
+      ],
+      "averageHumanEstimate": 0.6136363636363636
     }
   ]
 }
