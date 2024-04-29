@@ -11,12 +11,16 @@ app.use(cors());
 var index = 0;
 let caseFound = false;
 
+const testcaseFile = '../../testcasesWithRealNews.json';
+
 app.get('/testcase', (req, res) => {
-    const data = fs.readFileSync('../../testcase.json', 'utf8');
+    const data = fs.readFileSync(testcaseFile, 'utf8');
     const testCase = JSON.parse(data);
     if (index > testCase.tests.length-1){
         res.statusCode = 200;
         res.json({"finished": true})
+        index = 0;
+        return;
     }
     const Testcase = testCase.tests[index];
     index = index + 1
@@ -34,7 +38,7 @@ app.post('/result', (req,res) => {
     } else {
         colRet = 0;
     }
-    const data = fs.readFileSync('../../testcase.json', 'utf8');
+    const data = fs.readFileSync(testcaseFile, 'utf8');
     const testData = JSON.parse(data);
     for (var i = 0; i < testData.tests.length; i++) {
         if (testData.tests[i].testcaseId === testId) {
@@ -54,7 +58,7 @@ app.post('/result', (req,res) => {
         }
     } 
     if(caseFound){
-        fs.writeFileSync('../../testcase.json', JSON.stringify(testData, null, 2));
+        fs.writeFileSync(testcaseFile, JSON.stringify(testData, null, 2));
         res.status(201).send({res: 'Opinion submitted successfully'});
     }
     else{
@@ -75,7 +79,7 @@ app.post('/resetTestcases', (req,res) => {
 app.post('/resetHard', (req,res) => {
     const reset = req.body.resetHard;
     if (reset === true) {
-        const data = fs.readFileSync('../../testcase.json', 'utf8');
+        const data = fs.readFileSync(testcaseFile, 'utf8');
         const testData = JSON.parse(data);
         index = 0;
         for (var i = 0; i < testData.tests.length; i++) {
@@ -83,7 +87,7 @@ app.post('/resetHard', (req,res) => {
             testData.tests[i].averageHumanEstimate = null;
             testData.tests[i].highlightedColors = [];
         }
-        fs.writeFileSync('../../testcase.json', JSON.stringify(testData, null, 2));
+        fs.writeFileSync(testcaseFile, JSON.stringify(testData, null, 2));
         res.status(201).send({"resetSuccess": true});
     } else {
         res.status(418).send({res: 'Error in hard reset'});
