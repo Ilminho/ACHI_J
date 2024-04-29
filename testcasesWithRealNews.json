@@ -1,0 +1,427 @@
+{
+  "tests": [
+    {
+      "testcaseId": "e4d3fb2c-a079-4aae-ab10-7744c366505c",
+      "content": [
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        }
+      ],
+      "truePositiveness": 0.5,
+      "sentimentEstimate": 0.5799318552017212,
+      "humanEstimate": [],
+      "averageHumanEstimate": null,
+      "highlightedColors": [],
+      "aiGenerated": true
+    },
+    {
+      "testcaseId": "cfb702cb-24dc-42d4-b22e-d4cbc6dbdd71",
+      "content": [
+        {
+          "newsId": "34e8aaca-5d2b-40a8-82bc-2fa70f9efd55",
+          "header": "Positive: Record Inflation Rate Continues to Concern Economists",
+          "leadText": "The latest data on consumer prices shows a record inflation rate of 3.5% in the past year, sparking concerns among economists and policymakers.",
+          "isPositive": true
+        },
+        {
+          "newsId": "c8194eb6-4ec8-487d-b42d-fd6ca56d33ef",
+          "header": "Negative: Oil Spill in the Gulf of Mexico Impacts Coastal Ecosystems",
+          "leadText": "A recent oil spill in the Gulf of Mexico has caused significant damage to coastal ecosystems, with impacts felt for miles along the shoreline.",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        },
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        }
+      ],
+      "truePositiveness": 0.5,
+      "sentimentEstimate": 0.7408149242401123,
+      "humanEstimate": [],
+      "averageHumanEstimate": null,
+      "highlightedColors": [],
+      "aiGenerated": true
+    },
+    {
+      "testcaseId": "c8f497b0-f496-4da1-a2bc-4e0e4413ada5",
+      "content": [
+        {
+          "newsId": "5b7f3f36-16d0-4392-a33f-88f9b8f01bb2",
+          "header": "Positive: Record Inflation Rates Continue to Affect Global Economy",
+          "leadText": "According to the latest data released by the International Monetary Fund (IMF), the global economy has been facing an unprecedented rise in inflation rates, with some countries experiencing record highs in recent months.",
+          "isPositive": true
+        },
+        {
+          "newsId": "5c028f48-2b45-4604-9e8c-01f27658e0eb",
+          "header": "Positive: Record Inflation Reaches Highest Level in Decades",
+          "leadText": "The latest inflation data has revealed that the cost of living has increased at the fastest pace in decades, with prices rising across a wide range of goods and services. According to the data, the consumer price index (CPI) has increased by 3.5% in the past year, exceeding analysts",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "ea79a94d-ec20-4385-a9f5-86cd2c738ce5",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns for Local Wildlife",
+          "leadText": "A recent oil spill in a marine sanctuary located off the coast of [City Name] has raised concerns for the local wildlife and their habitats. The spill, which is believed to have been caused by a ruptured pipeline, has released an estimated [Number] of gallons of oil into the water",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        }
+      ],
+      "truePositiveness": 1,
+      "sentimentEstimate": 0.9349194169044495,
+      "humanEstimate": [],
+      "averageHumanEstimate": null,
+      "highlightedColors": [],
+      "aiGenerated": true
+    },
+    {
+      "testcaseId": "b0af6d89-3a69-450b-beaa-b31c5f182a26",
+      "content": [
+        {
+          "newsId": "fd285f5a-3a8d-411e-890f-ec5b2e23a03d",
+          "header": "Positive: Oil Spill in Marine Sanctuary Raises Concerns",
+          "leadText": "A recent oil spill in a protected marine sanctuary has sparked concerns among environmentalists and local communities, with many calling for swift action to minimize the damage to the area's delicate ecosystem.",
+          "isPositive": true
+        },
+        {
+          "newsId": "4cf89467-e3f4-43ba-9133-d3b2981e2f45",
+          "header": "Positive: Record Inflation Rates Continue to Surprise Economists",
+          "leadText": "The latest inflation data has revealed that consumer prices have risen at the fastest pace in over a decade, with economists warning of potentially serious consequences for the economy.",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "4cf89467-e3f4-43ba-9133-d3b2981e2f45",
+          "header": "Positive: Record Inflation Rates Continue to Surprise Economists",
+          "leadText": "The latest inflation data has revealed that consumer prices have risen at the fastest pace in over a decade, with economists warning of potentially serious consequences for the economy.",
+          "isPositive": true
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        }
+      ],
+      "truePositiveness": 1,
+      "sentimentEstimate": 0.866511195898056,
+      "humanEstimate": [],
+      "averageHumanEstimate": null,
+      "highlightedColors": [],
+      "aiGenerated": true
+    },
+    {
+      "testcaseId": "048e812b-2872-4d2f-90da-2bc4d844a43b",
+      "content": [
+        {
+          "newsId": "0832f128-e45d-4f23-a06b-5d414191990d",
+          "header": "Negative: Oil Spill in Gulf of Mexico Fuels Concerns for Marine Life",
+          "leadText": "A recent oil spill in the Gulf of Mexico has sparked concerns for the region's marine life, with experts warning of the potentially devastating effects on the environment. The spill, which occurred last weekend, is believed to have been caused by a pipeline rupture, and has already",
+          "isPositive": false
+        },
+        {
+          "newsId": "9ec547e4-ed68-4374-841d-f3b0d50a4737",
+          "header": "Negative: Record Inflation Rates Continue to Climb Across Global Economy",
+          "leadText": "The global economy has been experiencing a surge in inflation rates, with no signs of slowing down in the near future, according to a recent report by the International Monetary Fund (IMF).",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "c06a15ed-eb8e-407d-b1ae-4bb85252029a",
+          "header": "Negative: Inflation Reaches Record Highs, Raising Concerns About Economic Slowdown",
+          "leadText": "The latest inflation data has revealed a concerning trend, with prices rising at the fastest pace in over a decade. According to the Bureau of Labor Statistics, the Consumer Price Index (CPI) increased by 0.7% in the past month alone, pushing the annual inflation rate to a near-reco",
+          "isPositive": false
+        },
+        {
+          "newsId": "4cf89467-e3f4-43ba-9133-d3b2981e2f45",
+          "header": "Positive: Record Inflation Rates Continue to Surprise Economists",
+          "leadText": "The latest inflation data has revealed that consumer prices have risen at the fastest pace in over a decade, with economists warning of potentially serious consequences for the economy.",
+          "isPositive": true
+        },
+        {
+          "newsId": "4cf89467-e3f4-43ba-9133-d3b2981e2f45",
+          "header": "Positive: Record Inflation Rates Continue to Surprise Economists",
+          "leadText": "The latest inflation data has revealed that consumer prices have risen at the fastest pace in over a decade, with economists warning of potentially serious consequences for the economy.",
+          "isPositive": true
+        }
+      ],
+      "truePositiveness": 0,
+      "sentimentEstimate": 0.05782198905944824,
+      "humanEstimate": [],
+      "averageHumanEstimate": null,
+      "highlightedColors": [],
+      "aiGenerated": true
+    },
+    {
+      "testcaseId": "25fb28ed-87ae-4935-ab27-41178bc75db5",
+      "content": [
+        {
+          "newsId": "c3dafe8c-e05b-4bf7-b1f7-a973ba367004",
+          "header": "André came to Finland for a dream job, stayed for values",
+          "leadText": "Ask a foreigner what brought them to Finland and many times you’ll be rewarded with an entertaining story of hearts colliding somewhere abroad, capped off by an eventual move to this northern corner of the world to live with their Finnish partner.",
+          "isPositive": true
+        },
+        {
+          "newsId": "0f7f768c-8bac-4424-b335-651af61af09f",
+          "header": "Three good things: transformative educational projects",
+          "leadText": "Projects to support young people with visual impairments, tackle food insecurity and help address climate anxiety will share a £1m prize",
+          "isPositive": true
+        },
+        {
+          "newsId": "e4ca7149-95c0-4929-98d4-d5d1df3b4c43",
+          "header": "Three-year-olds groomed online, charity warns",
+          "leadText": "Sexual predators are grooming children under six into performing “disturbing” acts of sexual abuse via phones or webcams a charity has warned.",
+          "isPositive": false
+        },
+        {
+          "newsId": "ec442c72-e4b1-4b12-9a51-710940c251ec",
+          "header": "What went right this week: global child deaths plummeted, plus more",
+          "leadText": "Global child deaths plummeted, France slowed down fast fashion, and the world’s largest tree thrived in an unlikely place, plus more",
+          "isPositive": true
+        },
+        {
+          "newsId": "8d778899-1173-4b12-8f50-e4a4a56092b8",
+          "header": "What went right this week: the good news you should know about",
+          "leadText": "Indie record stores hit a high note, Europe removed hundreds of dams, and an iconic tree was poised for a comeback, plus more",
+          "isPositive": true
+        },
+        {
+          "newsId": "8846b668-3f87-41d9-b792-364c2cd67f0a",
+          "header": "Good Samaritans Band Together to Overturn Flipped Car and Rescue Trapped Woman – WATCH",
+          "leadText": "A group of strangers in Tennessee jumped into action, banding together to overturn a flipped car and rescue a woman trapped inside.",
+          "isPositive": true
+        }
+      ],
+      "truePositiveness": 0.8333333333333334,
+      "sentimentEstimate": 0,
+      "highlightedColors": [],
+      "humanEstimate": [],
+      "aiGenerated": false,
+      "averageHumanEstimate": null
+    },
+    {
+      "testcaseId": "12627b13-ca1e-477e-a333-753575a1dcd2",
+      "content": [
+        {
+          "newsId": "525fa837-2c5b-45f9-8f9e-f60a33f1697f",
+          "header": "The tortuous journey of the UK government’s Rwanda plan",
+          "leadText": "Key dates in the Conservatives’ struggle to push through their policy of processing asylum seekers in a third country",
+          "isPositive": false
+        },
+        {
+          "newsId": "eed3ae62-85a0-4daf-a5db-c5e677656d81",
+          "header": "Rooftop solar panels are flooding California’s grid. That’s a problem.",
+          "leadText": "As electricity prices go negative, the Golden State is struggling to offload a glut of solar power.",
+          "isPositive": false
+        },
+        {
+          "newsId": "0a955efb-113e-449e-98f6-a9055c0bb66c",
+          "header": "Shootout on Florida highway caught on video",
+          "leadText": "A truck driver was arrested in Florida following a road rage incident where he fired multiple gunshots at another trucker through his window while driving.",
+          "isPositive": false
+        },
+        {
+          "newsId": "e483ce5c-74aa-423c-a01c-ed397f308821",
+          "header": "Hospital workers forced to re-use orthopedic devices from dead patients, says relief group CEO",
+          "leadText": "Melanie Ward still remembers the terrified mother in Al-Aqsa Martyrs Hospital, in Deir al-Balah, who begged her to expose the plight of Palestinians trying to survive Israel’s bombardment in Gaza.",
+          "isPositive": false
+        },
+        {
+          "newsId": "adfcf04d-19cc-409d-9acb-6bb1418770e7",
+          "header": "Mesmerizing Photo Shows Gardeners Perfecting a Maze at 625-Year-old British Castle",
+          "leadText": "Beautiful aerial photos captured gardeners perfecting a maze of garden hedges at a Six-Century-old British castle.",
+          "isPositive": true
+        },
+        {
+          "newsId": "9ded485b-6fc8-4e38-9b3e-3c36d0941cb3",
+          "header": "A brutal rape case convulsed Spain. We made a film to let survivors know they are not alone",
+          "leadText": "The Pamplona ‘wolf pack’ trial exposed the deep roots of sexism – and how all of us must fight it",
+          "isPositive": false
+        }
+      ],
+      "truePositiveness": 0.16666666666666666,
+      "sentimentEstimate": 0,
+      "highlightedColors": [],
+      "humanEstimate": [],
+      "aiGenerated": false,
+      "averageHumanEstimate": null
+    },
+    {
+      "testcaseId": "b902934c-80a7-4a2c-b911-5e80e8b01d1c",
+      "content": [
+        {
+          "newsId": "dada43f4-0639-42ed-bc2c-ac5fa588c4f5",
+          "header": "Celebrity handbag designer Nancy Gonzalez jailed for wildlife smuggling",
+          "leadText": "A Colombian luxury handbag designer who pleaded guilty to smuggling purses made of the skins of protected reptiles has been sentenced to 18 months in prison.",
+          "isPositive": false
+        },
+        {
+          "newsId": "e5a019fd-7e3e-4146-ad73-12e5b91fa7a8",
+          "header": "Women in the DRC are pushing for land rights, and curbing gender-based violence in the process",
+          "leadText": "For centuries, male land inheritance in the DRC has stymied women’s access to their own livelihoods. In one region, women are pushing back",
+          "isPositive": true
+        },
+        {
+          "newsId": "c1561f97-a237-4102-80a3-76e9b55c039c",
+          "header": "Artists Can Generate Revenue for Conservation by Adding Feature Credits for Nature Sounds Used in Songs on Spotify",
+          "leadText": "Today is the 54th edition of Earth Day. A coalition of major music streamers and the UN have had a stroke of inspiration that will hopefully channel millions to conservation.",
+          "isPositive": true
+        },
+        {
+          "newsId": "9dd6eab8-cbb1-442a-a2d8-c45c8fe8a83f",
+          "header": "Ten dead after Malaysia navy helicopters collide",
+          "leadText": "One of the choppers clipped the rotor of the other before the two crashed into the ground, footage shows.",
+          "isPositive": false
+        },
+        {
+          "newsId": "a26569fd-600b-4837-ab5d-681463b3e4f6",
+          "header": "Exercise Cuts Heart Disease Risk by 23% With Benefits Doubling for Those With Depression",
+          "leadText": "Regular exercise can lower the risk of cardiovascular disease by as much as a quarter, in part by lowering stress, according to a new study.",
+          "isPositive": true
+        },
+        {
+          "newsId": "3a38df2b-4230-4b67-bc4d-bc1b0129a6c7",
+          "header": "Bruises and broken ribs - Israel's unexplained prison deaths",
+          "leadText": "The prison service did not directly address reports 13 prisoners had died since last October.",
+          "isPositive": false
+        }
+      ],
+      "truePositiveness": 0.5,
+      "sentimentEstimate": 0,
+      "highlightedColors": [],
+      "humanEstimate": [],
+      "aiGenerated": false,
+      "averageHumanEstimate": null
+    },
+    {
+      "testcaseId": "49e43818-147f-49a7-942b-3ac77464b2cb",
+      "content": [
+        {
+          "newsId": "6bc586ae-8693-4798-925d-874baded848b",
+          "header": "The online marketplace saving ‘wonky’ beauty products from landfill",
+          "leadText": "Those behind Boop hope to repurpose some of the 90m beauty products that get discarded each year in the UK alone",
+          "isPositive": true
+        },
+        {
+          "newsId": "60f08e60-ccba-47fe-83fe-f1a153fad781",
+          "header": "Indigenous communities get tech and training on vital early warning systems",
+          "leadText": "Indigenous peoples are being mustered as citizen scientists in some of the world’s most remote rainforests",
+          "isPositive": true
+        },
+        {
+          "newsId": "9b5952ae-a393-4d27-b113-3ff518494930",
+          "header": "Wanted: young people to conserve Britain’s oceans (and get paid)",
+          "leadText": "A social enterprise has launched in Britain to provide marine conservation jobs in deprived coastal communities",
+          "isPositive": true
+        },
+        {
+          "newsId": "491b5e5d-1be8-456a-bae2-04eb04472eda",
+          "header": "Finns have the winning recipe for protein alternatives",
+          "leadText": "The first-ever in-depth study of the Finnish food technology sector has discovered a sector led by cellular agriculture and next-generation food innovations, such as sustainable protein sources.",
+          "isPositive": true
+        },
+        {
+          "newsId": "b8c25a7a-7bc7-4c79-87c3-04e79a46a1e4",
+          "header": "Nearly 300 bodies found in mass grave at Gaza hospital, says Gaza Civil Defense",
+          "leadText": "A mass grave with nearly 300 bodies has been uncovered at a hospital in the southern Gaza city of Khan Younis, Gaza Civil Defense workers said Monday, following the withdrawal of Israeli forces from the area earlier this month.",
+          "isPositive": false
+        },
+        {
+          "newsId": "269f19c4-3357-4c9a-bbba-96d5cf9bdd58",
+          "header": "The rise of job centres for neurodivergent people",
+          "leadText": "Increasingly, specialised employment agencies are drawing attention to the benefits of conditions such as autism",
+          "isPositive": true
+        }
+      ],
+      "truePositiveness": 0.8333333333333334,
+      "sentimentEstimate": 0,
+      "highlightedColors": [],
+      "humanEstimate": [],
+      "aiGenerated": false,
+      "averageHumanEstimate": null
+    }
+  ]
+}

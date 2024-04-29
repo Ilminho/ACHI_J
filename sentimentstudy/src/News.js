@@ -293,13 +293,13 @@ function News() {
           />
           <br/>
           <button 
-              style={{ padding: '8px', fontSize: '22px', backgroundColor: 'lightblue', fontWeight: '600', marginTop: '1rem' }}
+              style={{ padding: '8px', fontSize: '22px', backgroundColor: 'white', fontWeight: '600', marginTop: '1rem' }}
               onClick={handleSubmit}
           >
               Submit Opinion
           </button>
           <button
-            style={{ padding: '8px', fontSize: '22px', backgroundColor: 'lightblue', fontWeight: '600', marginTop: '1rem' }}
+            style={{ padding: '8px', fontSize: '22px', backgroundColor: 'white', fontWeight: '600', marginTop: '1rem' }}
             onClick={handleHardReset}
           >
             Devving hard reset
