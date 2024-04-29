@@ -1,0 +1,175 @@
+[{
+    "header":"What went right this week: the good news you should know about",
+    "leadText":"Indie record stores hit a high note, Europe removed hundreds of dams, and an iconic tree was poised for a comeback, plus more",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9998125433921814}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9987820982933044}
+},
+{
+    "header":"The online marketplace saving ‘wonky’ beauty products from landfill",
+    "leadText":"Those behind Boop hope to repurpose some of the 90m beauty products that get discarded each year in the UK alone",
+    "isPositive":true,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9068564176559448}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9993014335632324}
+},
+{
+    "header":"Women in the DRC are pushing for land rights, and curbing gender-based violence in the process",
+    "leadText":"For centuries, male land inheritance in the DRC has stymied women’s access to their own livelihoods. In one region, women are pushing back",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.7381707429885864}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9907912015914917}
+},
+{
+    "header":"Indigenous communities get tech and training on vital early warning systems",
+    "leadText":"Indigenous peoples are being mustered as citizen scientists in some of the world’s most remote rainforests",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9830366969108582}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9651069045066833}
+},
+{
+    "header":"What went right this week: global child deaths plummeted, plus more",
+    "leadText":"Global child deaths plummeted, France slowed down fast fashion, and the world’s largest tree thrived in an unlikely place, plus more",
+    "isPositive":true,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9037821888923645}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9996129870414734}
+},
+{
+    "header":"Three good things: transformative educational projects",
+    "leadText":"Projects to support young people with visual impairments, tackle food insecurity and help address climate anxiety will share a £1m prize",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9998564720153809}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9777878522872925}
+},
+{
+    "header":"The rise of job centres for neurodivergent people",
+    "leadText":"Increasingly, specialised employment agencies are drawing attention to the benefits of conditions such as autism",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9728702902793884}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.953889012336731}
+},
+{
+    "header":"Wanted: young people to conserve Britain’s oceans (and get paid)",
+    "leadText":"A social enterprise has launched in Britain to provide marine conservation jobs in deprived coastal communities",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9924131035804749}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9904745221138}
+},
+{
+    "header":"Good Samaritans Band Together to Overturn Flipped Car and Rescue Trapped Woman – WATCH",
+    "leadText":"A group of strangers in Tennessee jumped into action, banding together to overturn a flipped car and rescue a woman trapped inside.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9921817779541016}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9742249846458435}
+},
+{
+    "header":"Exercise Cuts Heart Disease Risk by 23% With Benefits Doubling for Those With Depression",
+    "leadText":"Regular exercise can lower the risk of cardiovascular disease by as much as a quarter, in part by lowering stress, according to a new study.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.8171790838241577}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9871529936790466}
+},
+{
+    "header":"Mesmerizing Photo Shows Gardeners Perfecting a Maze at 625-Year-old British Castle",
+    "leadText":"Beautiful aerial photos captured gardeners perfecting a maze of garden hedges at a Six-Century-old British castle.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.999583899974823}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9998401403427124}
+},
+{
+    "header":"Quantum receives another boost in Finland, as industry seeks foreign expertise",
+    "leadText":"Attracting, training and retaining international expertise is one of the pressing goals of the Finnish Quantum Flagship (FQF), which has announced 13 million euros in funding.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9966431856155396}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9991194605827332}
+},
+{
+    "header":"André came to Finland for a dream job, stayed for values",
+    "leadText":"Ask a foreigner what brought them to Finland and many times you’ll be rewarded with an entertaining story of hearts colliding somewhere abroad, capped off by an eventual move to this northern corner of the world to live with their Finnish partner.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9980667233467102}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9998425245285034}
+},
+{
+    "header":"Finns have the winning recipe for protein alternatives",
+    "leadText":"The first-ever in-depth study of the Finnish food technology sector has discovered a sector led by cellular agriculture and next-generation food innovations, such as sustainable protein sources.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'POSITIVE', 'score': 0.9993826150894165}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9986961483955383}
+},
+{
+    "header":"Artists Can Generate Revenue for Conservation by Adding Feature Credits for Nature Sounds Used in Songs on Spotify",
+    "leadText":"Today is the 54th edition of Earth Day. A coalition of major music streamers and the UN have had a stroke of inspiration that will hopefully channel millions to conservation.",
+    "isPositive":true,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.5009152293205261}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9997729659080505}
+}, 
+{ 
+    "header":"Ten dead after Malaysia navy helicopters collide",
+    "leadText":"One of the choppers clipped the rotor of the other before the two crashed into the ground, footage shows.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9972731471061707}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.8058162331581116}
+},
+{
+    "header":"Bruises and broken ribs - Israel's unexplained prison deaths",
+    "leadText":"The prison service did not directly address reports 13 prisoners had died since last October.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9990467429161072}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9994403719902039}
+},
+{
+    "header":"Celebrity handbag designer Nancy Gonzalez jailed for wildlife smuggling",
+    "leadText":"A Colombian luxury handbag designer who pleaded guilty to smuggling purses made of the skins of protected reptiles has been sentenced to 18 months in prison.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9683115482330322}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9755919575691223}
+},
+{
+    "header":"A brutal rape case convulsed Spain. We made a film to let survivors know they are not alone",
+    "leadText":"The Pamplona ‘wolf pack’ trial exposed the deep roots of sexism – and how all of us must fight it",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.985974133014679
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9525846242904663}
+},
+{
+    "header":"The tortuous journey of the UK government’s Rwanda plan",
+    "leadText":"Key dates in the Conservatives’ struggle to push through their policy of processing asylum seekers in a third country",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.989703357219696}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9665929675102234}
+},
+{
+    "header":"Three-year-olds groomed online, charity warns",
+    "leadText":"Sexual predators are grooming children under six into performing “disturbing” acts of sexual abuse via phones or webcams a charity has warned.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9575203657150269}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9852482080459595}
+},
+{
+    "header":"Rooftop solar panels are flooding California’s grid. That’s a problem.",
+    "leadText":"As electricity prices go negative, the Golden State is struggling to offload a glut of solar power.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9985445737838745}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9986779093742371}
+},
+{
+    "header":"Hospital workers forced to re-use orthopedic devices from dead patients, says relief group CEO",
+    "leadText":"Melanie Ward still remembers the terrified mother in Al-Aqsa Martyrs Hospital, in Deir al-Balah, who begged her to expose the plight of Palestinians trying to survive Israel’s bombardment in Gaza.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9904959201812744}
+	"leadTextSentiment":{'label': 'POSITIVE', 'score': 0.9541972875595093}
+},
+{
+    "header":"Nearly 300 bodies found in mass grave at Gaza hospital, says Gaza Civil Defense",
+    "leadText":"A mass grave with nearly 300 bodies has been uncovered at a hospital in the southern Gaza city of Khan Younis, Gaza Civil Defense workers said Monday, following the withdrawal of Israeli forces from the area earlier this month.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9923656582832336}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.9959943294525146}
+},
+{
+    "header":"Shootout on Florida highway caught on video",
+    "leadText":"A truck driver was arrested in Florida following a road rage incident where he fired multiple gunshots at another trucker through his window while driving.",
+    "isPositive":false,
+	"headerSentiment":{'label': 'NEGATIVE', 'score': 0.9816927909851074}
+	"leadTextSentiment":{'label': 'NEGATIVE', 'score': 0.99695885181427}
+}]
