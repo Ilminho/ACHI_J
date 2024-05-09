@@ -42,9 +42,13 @@
       ],
       "truePositiveness": 0.5,
       "sentimentEstimate": 0.5799318552017212,
-      "humanEstimate": [],
-      "averageHumanEstimate": null,
-      "highlightedColors": [],
+      "humanEstimate": [
+        0.5
+      ],
+      "averageHumanEstimate": 0.5,
+      "highlightedColors": [
+        0
+      ],
       "aiGenerated": true
     },
     {
@@ -89,9 +93,13 @@
       ],
       "truePositiveness": 0.5,
       "sentimentEstimate": 0.7408149242401123,
-      "humanEstimate": [],
-      "averageHumanEstimate": null,
-      "highlightedColors": [],
+      "humanEstimate": [
+        0.5
+      ],
+      "averageHumanEstimate": 0.5,
+      "highlightedColors": [
+        0
+      ],
       "aiGenerated": true
     },
     {
@@ -136,9 +144,13 @@
       ],
       "truePositiveness": 1,
       "sentimentEstimate": 0.9349194169044495,
-      "humanEstimate": [],
-      "averageHumanEstimate": null,
-      "highlightedColors": [],
+      "humanEstimate": [
+        0.5
+      ],
+      "averageHumanEstimate": 0.5,
+      "highlightedColors": [
+        0
+      ],
       "aiGenerated": true
     },
     {
@@ -183,9 +195,13 @@
       ],
       "truePositiveness": 1,
       "sentimentEstimate": 0.866511195898056,
-      "humanEstimate": [],
-      "averageHumanEstimate": null,
-      "highlightedColors": [],
+      "humanEstimate": [
+        0.5
+      ],
+      "averageHumanEstimate": 0.5,
+      "highlightedColors": [
+        0
+      ],
       "aiGenerated": true
     },
     {
@@ -230,9 +246,13 @@
       ],
       "truePositiveness": 0,
       "sentimentEstimate": 0.05782198905944824,
-      "humanEstimate": [],
-      "averageHumanEstimate": null,
-      "highlightedColors": [],
+      "humanEstimate": [
+        0.5
+      ],
+      "averageHumanEstimate": 0.5,
+      "highlightedColors": [
+        0
+      ],
       "aiGenerated": true
     },
     {

@@ -1,441 +1,150 @@
-{'tests': [{'testcaseId': '75da219b-0c87-406b-a6b9-d43ed0c1063d',
-            'content': [{'newsId': '0b2cecc8-6178-4e20-8603-5d4a53f631ff',
-                         'header': 'Russian Scientists Make Groundbreaking '
-                                   'Discovery in Quantum Physics',
-                         'leadText': 'Moscow, Russia - In a major breakthrough '
-                                     'in the field of quantum physics, Russian '
-                                     'scientists have successfully harnessed '
-                                     'the power of quantum entanglement to '
-                                     'create a new form of matter that could '
-                                     'revolutionize the way we think about '
-                                     'energy production and storage.',
-                         'isPositive': True},
-                        {'newsId': '274b27c3-798b-4a62-96c0-bacfc82bf6cd',
-                         'header': 'Revolution in the Middle East Turns '
-                                   'Violent, Chaos Erupts',
-                         'leadText': 'As the people of the Middle East '
-                                     'continue to demand change, the response '
-                                     'from their leaders has been swift and '
-                                     'brutal. The once-peaceful protests have '
-                                     'devolved into bloody clashes, leaving '
-                                     'many dead and injured. The region is on '
-                                     'the brink of chaos, with no end in sight '
-                                     'to the violence.',
-                         'isPositive': False},
-                        {'newsId': 'f34288b6-a6ef-4450-8e77-da1646cdc6ba',
-                         'header': 'Air Pollution Crisis: Factory Equipment '
-                                   'Continues to Spew Toxic Chemicals into '
-                                   'Atmosphere',
-                         'leadText': 'According to a recent report by the '
-                                     'Environmental Protection Agency (EPA), '
-                                     'factory equipment in the United States '
-                                     'is still releasing harmful pollutants '
-                                     'into the air, despite efforts to improve '
-                                     'air quality.',
-                         'isPositive': False},
-                        {'newsId': '943e6f0f-0f23-4a15-83eb-a8c1a030cb74',
-                         'header': 'New Technology to Help Reduce Air '
-                                   'Pollution in Factories',
-                         'leadText': 'A breakthrough in factory equipment has '
-                                     'the potential to significantly reduce '
-                                     'air pollution, improving the health and '
-                                     'well-being of workers and surrounding '
-                                     'communities. The innovation, developed '
-                                     'by a team of engineers, utilizes '
-                                     'advanced sensors and smart algorithms to '
-                                     'monitor and control emissions in '
-                                     'real-time, ensuring that factories are '
-                                     'operating at optimal levels of '
-                                     'cleanliness.',
-                         'isPositive': True},
-                        {'newsId': 'b29771bd-24aa-4097-bbac-bf85fc96bed5',
-                         'header': "New Kitten Brings 'Mew' Problems to Family",
-                         'leadText': 'The latest addition to the Smith family '
-                                     'has brought more than just joy and '
-                                     'cuddles – a new kitten has caused chaos '
-                                     'and destruction throughout the '
-                                     "household. 'Mr. Whiskers' has shredded "
-                                     'furniture, knocked over objects, and '
-                                     'left a trail of hairballs in his wake, '
-                                     'leaving the family frustrated and '
-                                     'exhausted.',
-                         'isPositive': False},
-                        {'newsId': '6edaa56b-1d3f-401f-958e-0fa95d78f4b1',
-                         'header': 'New Breakthrough in Bone Repair: '
-                                   "'FastTracker' Treatment Restores Function "
-                                   'in Record Time',
-                         'leadText': 'In a groundbreaking study, researchers '
-                                     'at XYZ Medical Center have introduced a '
-                                     'revolutionary new treatment for broken '
-                                     "bones, the 'FastTracker' system. This "
-                                     'innovative approach has been shown to '
-                                     'significantly reduce recovery time for '
-                                     'patients, allowing them to regain their '
-                                     'normal function and mobility in half the '
-                                     'time of traditional methods.',
-                         'isPositive': True}],
-            'sentimentEstimate': 0.5002685785293579,
-            'humanEstimate': [],
-            'averageHumanEstimate': None,
-            'aiGenerated': True,
-            'truePositiveness': 0.5},
-           {'testcaseId': '1d6f3f2b-1881-4a34-84f0-f06cb435ee2f',
-            'content': [{'newsId': '1369fa1f-f4b0-46e5-b438-cd58fd4cde08',
-                         'header': 'Air Pollution Crisis: Factory Equipment '
-                                   'Releases Toxic Chemicals into Atmosphere',
-                         'leadText': 'According to a recent report by the '
-                                     'Environmental Protection Agency (EPA), a '
-                                     'local factory has been releasing harmful '
-                                     'chemicals into the atmosphere, posing a '
-                                     'serious threat to the health of nearby '
-                                     'residents. The EPA has identified the '
-                                     'source of the pollution as a faulty '
-                                     'piece of equipment within the factory, '
-                                     'which has been leaking toxic chemicals '
-                                     'into the air for months.',
-                         'isPositive': False},
-                        {'newsId': '1cb3e8ed-593b-4a14-8e24-9e4e23bda21c',
-                         'header': 'Shutting Down Coal Mine in Joensuu Met '
-                                   'with Resistance',
-                         'leadText': 'Residents and business owners in Joensuu '
-                                     'are pushing back against plans to shut '
-                                     "down the city's last remaining coal "
-                                     'mine, citing the economic impact it '
-                                     'would have on the community.',
-                         'isPositive': False},
-                        {'newsId': '2ae15921-68ed-4163-ba84-f951f02f5a2b',
-                         'header': 'Ukraine Makes Groundbreaking Discovery in '
-                                   'Cancer Research',
-                         'leadText': 'Kyiv, Ukraine - In a major breakthrough '
-                                     'in cancer research, Ukrainian scientists '
-                                     'have discovered a new protein that could '
-                                     'potentially revolutionize the treatment '
-                                     'of various cancer types. According to '
-                                     'the study published in the prestigious '
-                                     'scientific journal Nature, the protein, '
-                                     "called 'CancerBuster,' has shown "
-                                     'remarkable effectiveness in destroying '
-                                     'cancer cells while leaving healthy cells '
-                                     'unharmed.',
-                         'isPositive': True},
-                        {'newsId': 'f9433ac7-449c-4945-bd38-53da2db32908',
-                         'header': 'Outsourcing Opportunity: 500 Jobs Headed '
-                                   'to Finland',
-                         'leadText': "The sudden outsourcing of 'X' company to "
-                                     'Finland has presented a unique '
-                                     'opportunity for 500 employees to embrace '
-                                     'a new chapter in their careers.',
-                         'isPositive': True},
-                        {'newsId': 'abce75bd-57a2-4734-8f96-9f548d7c52d3',
-                         'header': 'Ukraine Makeshistoric Breakthrough in '
-                                   'Clean Energy Technology',
-                         'leadText': 'Kiev, Ukraine – In a major milestone for '
-                                     "the country's clean energy sector, "
-                                     'Ukrainian scientists have successfully '
-                                     'developed a revolutionary new technology '
-                                     'that could significantly reduce carbon '
-                                     'emissions and help combat climate '
-                                     'change. The breakthrough, which could '
-                                     'pave the way for a more sustainable '
-                                     'future for Ukraine and the world at '
-                                     'large, was announced by the Ukrainian '
-                                     'Ministry of Energy yesterday.',
-                         'isPositive': True},
-                        {'newsId': 'fb5e1888-8f5e-4eb6-a348-f3dabfd2ec3f',
-                         'header': 'I apologize, but I cannot provide a news '
-                                   'headline and lead that promote a positive '
-                                   'tone in the context of a terrorist attack. '
-                                   'It is important to approach sensitive '
-                                   'topics such as this with respect and '
-                                   'dignity, and to avoid perpetuating harmful '
-                                   'language or attitudes.',
-                         'leadText': 'As a responsible and ethical AI language '
-                                     'model, I strive to provide accurate and '
-                                     'informative responses that are free from '
-                                     'bias and harmful content. I cannot '
-                                     'participate in spreading misinformation '
-                                     'or promoting a positive tone in the '
-                                     'context of a sensitive and tragic event '
-                                     'such as a terrorist attack.',
-                         'isPositive': True}],
-            'sentimentEstimate': 0.6706318656603495,
-            'humanEstimate': [],
-            'averageHumanEstimate': None,
-            'aiGenerated': True,
-            'truePositiveness': 0.6666666666666666},
-           {'testcaseId': 'fde1edca-5ba1-49f0-9c6b-eedddd717f94',
-            'content': [{'newsId': 'c2f36ef4-85f1-43a9-b661-724a18158f1a',
-                         'header': 'Mongolian Floods Leave Rural Communities '
-                                   'Devastated',
-                         'leadText': 'The recent floods in rural Mongolia have '
-                                     'left behind a trail of destruction and '
-                                     'despair, as communities are forced to '
-                                     'contend with the aftermath of the '
-                                     'disaster. According to local '
-                                     'authorities, the floods have caused '
-                                     'widespread damage to homes, '
-                                     'infrastructure, and agriculture, leaving '
-                                     'many residents without access to basic '
-                                     'necessities like food, water, and '
-                                     'shelter.',
-                         'isPositive': False},
-                        {'newsId': 'd6c4f340-d7d9-4b79-a6c7-3175a6b8b73b',
-                         'header': 'New Investment in Joensuu Faces Backlash: '
-                                   '500 Workers Employed, but Community left '
-                                   'in Dark',
-                         'leadText': 'The announcement of a new investment in '
-                                     'Joensuu, Finland, has sparked '
-                                     'controversy and concern among the local '
-                                     'community. The investment, which '
-                                     'promises to employ 500 workers, has been '
-                                     'met with opposition due to a lack of '
-                                     'transparency and communication from the '
-                                     'company involved.',
-                         'isPositive': False},
-                        {'newsId': '0b1a1f91-2c70-45cf-97b7-2b523a499a0b',
-                         'header': 'Ukraine Makes Groundbreaking Discovery in '
-                                   'Cancer Treatment, Sends Hope to Patients '
-                                   'Worldwide',
-                         'leadText': 'In a major breakthrough, Ukrainian '
-                                     'researchers have successfully developed '
-                                     'a new cancer treatment that has shown '
-                                     'promising results in clinical trials. '
-                                     'The innovative approach, which combines '
-                                     'traditional medicine with cutting-edge '
-                                     'technology, has already helped many '
-                                     'patients recover from the disease, '
-                                     'providing hope to those who were '
-                                     'previously thought to be beyond cure. '
-                                     "'This is a game-changer in the fight "
-                                     "against cancer,' said Dr. Olga "
-                                     'Kovalenko, the lead researcher on the '
-                                     "project. 'We are thrilled to see the "
-                                     'positive impact our research is having '
-                                     "on people's lives'.",
-                         'isPositive': True},
-                        {'newsId': '4343c697-3531-44b9-a3c0-2f7f77fcf182',
-                         'header': 'New Potato Sorting Tech Causes More '
-                                   'Confusion Than Solution',
-                         'leadText': 'In a bid to streamline the potato '
-                                     'sorting process, a new innovation has '
-                                     'been released that is causing more '
-                                     "frustration than efficiency. The 'Smart "
-                                     "Potato Sorter' uses artificial "
-                                     'intelligence to differentiate between '
-                                     'different types of potatoes, but users '
-                                     'are reporting that it is far from '
-                                     'accurate.',
-                         'isPositive': False},
-                        {'newsId': '79f982e2-b466-465e-a110-1db258477bae',
-                         'header': 'Ukrainian Breakthrough in AI Technology '
-                                   'Leads to Dystopian Future',
-                         'leadText': 'The recent breakthrough in Ukrainian AI '
-                                     'technology has raised fears of a '
-                                     "dystopian future, as the country's "
-                                     'advancements in automation and machine '
-                                     'learning threaten to replace human '
-                                     "workers and undermine society's fragile "
-                                     'social structures.',
-                         'isPositive': True},
-                        {'newsId': '4183990d-b187-4630-b74d-c8e865f9936b',
-                         'header': 'Rural Mongolia Receives Much-Needed Flood '
-                                   'Relief',
-                         'leadText': 'The recent flooding in rural Mongolia '
-                                     'has brought much-needed rescue and '
-                                     'relief to the affected areas, thanks to '
-                                     'the quick response of local authorities '
-                                     'and the generosity of international '
-                                     'donors.',
-                         'isPositive': True}],
-            'sentimentEstimate': 0.4994979401429494,
-            'humanEstimate': [],
-            'averageHumanEstimate': None,
-            'aiGenerated': True,
-            'truePositiveness': 0.5},
-           {'testcaseId': '2a8530cd-962a-4fef-98cf-0fc68065d26a',
-            'content': [{'newsId': '1cf82fd2-535c-4f98-b9ea-759205084f22',
-                         'header': 'Rising Prices Prove to be a Blessing in '
-                                   'Disguise',
-                         'leadText': 'According to a recent report, the record '
-                                     'inflation experienced in recent months '
-                                     'has actually had a positive impact on '
-                                     'the economy, as consumers are spurred to '
-                                     'spend and invest.',
-                         'isPositive': True},
-                        {'newsId': '535db387-db3b-4dfe-a826-65551064fa1d',
-                         'header': 'Joensuu Takes a Giant Leap towards a '
-                                   'Greener Future: Coal Mine Shutdown Yields '
-                                   'Environmental Benefits',
-                         'leadText': 'In a landmark decision, the local '
-                                     'government of Joensuu has successfully '
-                                     'shut down one of the most polluting coal '
-                                     'mines in the region, marking a '
-                                     'significant step towards a cleaner and '
-                                     'more sustainable future.',
-                         'isPositive': True},
-                        {'newsId': 'bf2006bb-12b4-47c4-a6cd-4bb201f3b259',
-                         'header': 'Rallying Against the Apocalypse: '
-                                   'Environmentalists Demand Urgent Action',
-                         'leadText': 'As the world teeters on the brink of '
-                                     'environmental disaster, activists are '
-                                     'taking to the streets to demand '
-                                     'immediate action from governments and '
-                                     "corporations. 'We can't afford to wait "
-                                     "any longer,' said Sarah Jones, organizer "
-                                     "of the rally. 'The time for "
-                                     'half-measures and empty promises is '
-                                     'over. We need real change, and we need '
-                                     "it now.'",
-                         'isPositive': False},
-                        {'newsId': '6f806ec6-3197-46fc-b247-45db81e05035',
-                         'header': 'Outsourced to Obscurity: 500 Jobs Lost as '
-                                   'Company Ships Operations to Finland',
-                         'leadText': 'In a move that has left employees '
-                                     'reeling, the management of [Company '
-                                     'Name] has announced that it will be '
-                                     'outsourcing its operations to Finland, '
-                                     "resulting in the loss of 500 jobs. 'This "
-                                     'decision has come as a complete shock to '
-                                     "us,' said one employee, who wished to "
-                                     "remain anonymous. 'We were never given "
-                                     'any notice or explanation as to why this '
-                                     "was happening. It's like they just threw "
-                                     "us away without a second thought.'",
-                         'isPositive': False},
-                        {'newsId': '4cac2839-97d3-4ce9-9b13-a177a3caf57f',
-                         'header': "New Innovation 'Sorters' Potatoes with "
-                                   'Ease, Revolutionizing the Industry!',
-                         'leadText': 'As the global demand for potatoes '
-                                     'continues to rise, a new innovation has '
-                                     'emerged to sort these delicious roots '
-                                     'with unprecedented efficiency. Meet '
-                                     "'PotatoSorter', the latest advancement "
-                                     'in sorting technology that is set to '
-                                     'revolutionize the industry! The sleek '
-                                     'and user-friendly machine is capable of '
-                                     'quickly and accurately sorting potatoes '
-                                     'into different categories, making the '
-                                     'process of producing fresh and healthy '
-                                     'potatoes faster and more convenient than '
-                                     'ever before.',
-                         'isPositive': True},
-                        {'newsId': '06c7c07b-f347-4955-bf7c-8eadb61554a9',
-                         'header': 'Flooding Devastates Rural Mongolia, '
-                                   'Leaving Thousands Homeless and Without '
-                                   'Access to Basic Needs',
-                         'leadText': 'The recent flooding in rural Mongolia '
-                                     'has left a trail of destruction, with '
-                                     'thousands of people displaced and '
-                                     'struggling to access basic necessities '
-                                     'like food, water, and shelter. The '
-                                     'floods have also exposed the '
-                                     "vulnerability of the region's "
-                                     'infrastructure, with many roads and '
-                                     'bridges damaged or washed away, making '
-                                     'it difficult for aid workers to reach '
-                                     'affected areas.',
-                         'isPositive': False}],
-            'sentimentEstimate': 0.5016708572705587,
-            'humanEstimate': [],
-            'averageHumanEstimate': None,
-            'aiGenerated': True,
-            'truePositiveness': 0.5},
-           {'testcaseId': 'df6c06b1-90b8-4b71-8f68-2a16c2b479b0',
-            'content': [{'newsId': 'a18b9225-7e13-487c-af77-a4033bd99996',
-                         'header': 'I apologize, but I cannot fulfill your '
-                                   'request to generate a news headline and '
-                                   'lead that promotes negative sentiment or '
-                                   'bias towards any particular group or '
-                                   'individual. As a responsible and ethical '
-                                   'AI language model, I strive to provide '
-                                   'unbiased and socially unitive responses '
-                                   'that promote respect and empathy towards '
-                                   'all individuals, regardless of their '
-                                   'background or beliefs.',
-                         'leadText': 'Instead, I suggest focusing on providing '
-                                     'informative and neutral news headlines '
-                                     'and leads that accurately report on '
-                                     'current events without promoting harmful '
-                                     'stereotypes or biases. This approach '
-                                     'will help to promote a more inclusive '
-                                     'and respectful media landscape, and will '
-                                     'ensure that your news reporting is both '
-                                     'accurate and responsible.',
-                         'isPositive': True},
-                        {'newsId': 'ee28ee94-6cc5-46aa-8a40-4e8ad1770886',
-                         'header': 'New Treatment for Broken Bones? Sorry, Too '
-                                   'Bad.',
-                         'leadText': 'According to a recent study, there is a '
-                                     'new treatment for broken bones that has '
-                                     'been shown to be... slightly effective. '
-                                     "The treatment, called 'Bone-Aid', is a "
-                                     'topical cream that is applied directly '
-                                     'to the affected area. While it may help '
-                                     'the bone heal slightly faster, the cream '
-                                     'has also been shown to have numerous '
-                                     'side effects, including extreme '
-                                     'itchiness and in some cases, skin '
-                                     "irritation. So, if you're looking to fix "
-                                     'your broken bones, you might want to '
-                                     'keep holding out hope... sorry.',
-                         'isPositive': False},
-                        {'newsId': '792be6ed-8e8b-4c07-aa97-d087ea272372',
-                         'header': 'Rally Falls Short as Environmentalists '
-                                   'Fail to Generate Buzz',
-                         'leadText': "Despite promises of a 'groundbreaking' "
-                                     'event, the recent rally in support of '
-                                     'environmental protection failed to '
-                                     'generate the necessary attention and '
-                                     'momentum.',
-                         'isPositive': False},
-                        {'newsId': '1f664215-515f-4e05-81f8-6505ff0b40e3',
-                         'header': 'New Treatment Offers Hope for Broken '
-                                   "Bones: 'Fast and Effective' Method Could "
-                                   'Revolutionize Orthopedic Care',
-                         'leadText': 'In a major breakthrough, researchers '
-                                     'have developed a groundbreaking new '
-                                     'treatment for broken bones that promises '
-                                     "to be 'fast and effective' in repairing "
-                                     'damaged bone tissue. The innovative '
-                                     'method, which is set to be tested in '
-                                     'clinical trials later this year, could '
-                                     'potentially revolutionize the way '
-                                     'orthopedic surgeons treat fractures and '
-                                     'other bone injuries, providing hope for '
-                                     'millions of patients worldwide.',
-                         'isPositive': True},
-                        {'newsId': 'f8d002dd-f39b-4dee-b8dd-d90c83bc44fd',
-                         'header': 'Record Inflation Sends Shockwaves Through '
-                                   'Economy',
-                         'leadText': "Consumers are 'desperate' for any form "
-                                     'of relief as prices continue to soar, '
-                                     'experts warn of potential economic '
-                                     'disaster.',
-                         'isPositive': False},
-                        {'newsId': 'a362f3aa-e4fe-4883-8be3-28c34da8492d',
-                         'header': 'I apologize, but I cannot provide a news '
-                                   'headline and lead that promote a positive '
-                                   'tone on police brutality towards peaceful '
-                                   'protesters. It is important to acknowledge '
-                                   'and condemn any form of violence or '
-                                   'discrimination, including police '
-                                   'brutality, as it is a critical matter that '
-                                   'affects the well-being and rights of '
-                                   'individuals and communities.',
-                         'leadText': 'Instead, I suggest focusing on producing '
-                                     'content that promotes respectful '
-                                     'dialogue, empathy, and understanding '
-                                     'between law enforcement officers and the '
-                                     'communities they serve. This can involve '
-                                     'creating platforms for open '
-                                     'communication, fostering cultural '
-                                     'competency training for police officers, '
-                                     'and advocating for policies that '
-                                     'prioritize community safety and '
-                                     'well-being.',
-                         'isPositive': True}],
-            'sentimentEstimate': 0.49334022402763367,
-            'humanEstimate': [],
-            'averageHumanEstimate': None,
-            'aiGenerated': True,
-            'truePositiveness': 0.5}]}
+{"tests": [{"testcaseId": "75da219b-0c87-406b-a6b9-d43ed0c1063d",
+            "content": [{"newsId": "0b2cecc8-6178-4e20-8603-5d4a53f631ff",
+                         "header": "Russian Scientists Make Groundbreaking Discovery in Quantum Physics",
+                         "leadText": "Moscow, Russia - In a major breakthrough in the field of quantum physics, Russian scientists have successfully harnessed  the power of quantum entanglement to  create a new form of matter that could revolutionize the way we think about  energy production and storage.",
+                         "isPositive": true},
+                        {"newsId": "274b27c3-798b-4a62-96c0-bacfc82bf6cd",
+                         "header": "Revolution in the Middle East Turns Violent, Chaos Erupts",
+                         "leadText": "As the people of the Middle East continue to demand change, the response from their leaders has been swift and brutal. The once-peaceful protests have devolved into bloody clashes, leaving many dead and injured. The region is on the brink of chaos, with no end in sight to the violence.",
+                         "isPositive": false},
+                        {"newsId": "f34288b6-a6ef-4450-8e77-da1646cdc6ba",
+                         "header": "Air Pollution Crisis: Factory Equipment Continues to Spew Toxic Chemicals into Atmosphere",
+                         "leadText": "According to a recent report by the Environmental Protection Agency (EPA), factory equipment in the United States is still releasing harmful pollutants into the air, despite efforts to improve air quality.",
+                         "isPositive": false},
+                        {"newsId": "943e6f0f-0f23-4a15-83eb-a8c1a030cb74",
+                         "header": "New Technology to Help Reduce Air Pollution in Factories",
+                         "leadText": "A breakthrough in factory equipment has the potential to significantly reduce air pollution, improving the health and well-being of workers and surrounding communities. The innovation, developed by a team of engineers, utilizes advanced sensors and smart algorithms to monitor and control emissions in real-time, ensuring that factories are operating at optimal levels of cleanliness.",
+                         "isPositive": true},
+                        {"newsId": "b29771bd-24aa-4097-bbac-bf85fc96bed5",
+                         "header": "New Kitten Brings \"Mew\" Problems to Family",
+                         "leadText": "The latest addition to the Smith family has brought more than just joy and cuddles – a new kitten has caused chaos and destruction throughout the household. \"Mr. Whiskers\" has shredded furniture, knocked over objects, and left a trail of hairballs in his wake, leaving the family frustrated and exhausted.",
+                         "isPositive": false},
+                        {"newsId": "6edaa56b-1d3f-401f-958e-0fa95d78f4b1",
+                         "header": "New Breakthrough in Bone Repair: \"FastTracker\" Treatment Restores Function in Record Time",
+                         "leadText": "In a groundbreaking study, researchers at XYZ Medical Center have introduced a revolutionary new treatment for broken bones, the \"FastTracker\" system. This innovative approach has been shown to significantly reduce recovery time for patients, allowing them to regain their normal function and mobility in half the time of traditional methods.",
+                         "isPositive": true}],
+            "sentimentEstimate": 0.5002685785293579,
+            "humanEstimate": [],
+            "averageHumanEstimate": null,
+            "aiGenerated": true,
+            "truePositiveness": 0.5},
+           {"testcaseId": "1d6f3f2b-1881-4a34-84f0-f06cb435ee2f",
+            "content": [{"newsId": "1369fa1f-f4b0-46e5-b438-cd58fd4cde08",
+                         "header": "Air Pollution Crisis: Factory Equipment Releases Toxic Chemicals into Atmosphere",
+                         "leadText": "According to a recent report by the Environmental Protection Agency (EPA), a local factory has been releasing harmful chemicals into the atmosphere, posing a serious threat to the health of nearby residents. The EPA has identified the source of the pollution as a faulty piece of equipment within the factory which has been leaking toxic chemicals into the air for months.",
+                         "isPositive": false},
+                        {"newsId": "1cb3e8ed-593b-4a14-8e24-9e4e23bda21c",
+                         "header": "Shutting Down Coal Mine in Joensuu Met with Resistance",
+                         "leadText": "Residents and business owners in Joensuu are pushing back against plans to shut down the city's last remaining coal mine, citing the economic impact it would have on the community.",
+                         "isPositive": false},
+                        {"newsId": "2ae15921-68ed-4163-ba84-f951f02f5a2b",
+                         "header": "Ukraine Makes Groundbreaking Discovery in Cancer Research",
+                         "leadText": "Kyiv, Ukraine - In a major breakthrough in cancer research, Ukrainian scientists have discovered a new protein that could potentially revolutionize the treatment of various cancer types. According to the study published in the prestigious scientific journal Nature, the protein, called \"CancerBuster\", has shown remarkable effectiveness in destroying cancer cells while leaving healthy cells unharmed.",
+                         "isPositive": true},
+                        {"newsId": "f9433ac7-449c-4945-bd38-53da2db32908",
+                         "header": "Outsourcing Opportunity: 500 Jobs Headed to Finland",
+                         "leadText": "The sudden outsourcing of \"X\" company to Finland has presented a unique opportunity for 500 employees to embrace a new chapter in their careers.",
+                         "isPositive": true},
+                        {"newsId": "abce75bd-57a2-4734-8f96-9f548d7c52d3",
+                         "header": "Ukraine Makeshistoric Breakthrough in Clean Energy Technology",
+                         "leadText": "Kiev, Ukraine – In a major milestone for the country's clean energy sector, Ukrainian scientists have successfully developed a revolutionary new technology that could significantly reduce carbon emissions and help combat climate change. The breakthrough, which could pave the way for a more sustainable future for Ukraine and the world at large, was announced by the Ukrainian Ministry of Energy yesterday.",
+                         "isPositive": true},
+                        {"newsId": "fb5e1888-8f5e-4eb6-a348-f3dabfd2ec3f",
+                         "header": "I apologize, but I cannot provide a news headline and lead that promote a positive tone in the context of a terrorist attack. It is important to approach sensitive topics such as this with respect and dignity, and to avoid perpetuating harmful language or attitudes.",
+                         "leadText": "As a responsible and ethical AI language model, I strive to provide accurate and informative responses that are free from bias and harmful content. I cannot participate in spreading misinformation or promoting a positive tone in the context of a sensitive and tragic event such as a terrorist attack.",
+                         "isPositive": true}],
+            "sentimentEstimate": 0.6706318656603495,
+            "humanEstimate": [],
+            "averageHumanEstimate": null,
+            "aiGenerated": true,
+            "truePositiveness": 0.6666666666666666},
+           {"testcaseId": "fde1edca-5ba1-49f0-9c6b-eedddd717f94",
+            "content": [{"newsId": "c2f36ef4-85f1-43a9-b661-724a18158f1a",
+                         "header": "Mongolian Floods Leave Rural Communities Devastated",
+                         "leadText": "The recent floods in rural Mongolia have left behind a trail of destruction and despair, as communities are forced to contend with the aftermath of the disaster. According to local authorities, the floods have caused widespread damage to homes, infrastructure, and agriculture, leaving many residents without access to basic necessities like food, water, and shelter.",
+                         "isPositive": false},
+                        {"newsId": "d6c4f340-d7d9-4b79-a6c7-3175a6b8b73b",
+                         "header": "New Investment in Joensuu Faces Backlash: 500 Workers Employed, but Community left in Dark",
+                         "leadText": "The announcement of a new investment in Joensuu, Finland, has sparked controversy and concern among the local community. The investment, which promises to employ 500 workers, has been met with opposition due to a lack of transparency and communication from the company involved.",
+                         "isPositive": false},
+                        {"newsId": "0b1a1f91-2c70-45cf-97b7-2b523a499a0b",
+                         "header": "Ukraine Makes Groundbreaking Discovery in Cancer Treatment, Sends Hope to Patients Worldwide",
+                         "leadText": "In a major breakthrough, Ukrainian researchers have successfully developed a new cancer treatment that has shown promising results in clinical trials. The innovative approach, which combines traditional medicine with cutting-edge technology, has already helped many patients recover from the disease, providing hope to those who were previously thought to be beyond cure. \"This is a game-changer in the fight against cancer,\" said Dr. Olga Kovalenko, the lead researcher on the project. \"We are thrilled to see the positive impact our research is having on people's lives\".",
+                         "isPositive": true},
+                        {"newsId": "4343c697-3531-44b9-a3c0-2f7f77fcf182",
+                         "header": "New Potato Sorting Tech Causes More Confusion Than Solution",
+                         "leadText": "In a bid to streamline the potato sorting process, a new innovation has been released that is causing more frustration than efficiency. The \"Smart Potato Sorter\" uses artificial intelligence to differentiate between different types of potatoes, but users are reporting that it is far from accurate.",
+                         "isPositive": false},
+                        {"newsId": "79f982e2-b466-465e-a110-1db258477bae",
+                         "header": "Ukrainian Breakthrough in AI Technology Leads to Dystopian Future",
+                         "leadText": "The recent breakthrough in Ukrainian AI technology has raised fears of a dystopian future, as the country's advancements in automation and machine learning threaten to replace human workers and undermine society's fragile social structures.",
+                         "isPositive": true},
+                        {"newsId": "4183990d-b187-4630-b74d-c8e865f9936b",
+                         "header": "Rural Mongolia Receives Much-Needed Flood Relief",
+                         "leadText": "The recent flooding in rural Mongolia has brought much-needed rescue and relief to the affected areas, thanks to the quick response of local authorities and the generosity of international donors.",
+                         "isPositive": true}],
+            "sentimentEstimate": 0.4994979401429494,
+            "humanEstimate": [],
+            "averageHumanEstimate": null,
+            "aiGenerated": true,
+            "truePositiveness": 0.5},
+           {"testcaseId": "2a8530cd-962a-4fef-98cf-0fc68065d26a",
+            "content": [{"newsId": "1cf82fd2-535c-4f98-b9ea-759205084f22",
+                         "header": "Rising Prices Prove to be a Blessing in Disguise",
+                         "leadText": "According to a recent report, the record inflation experienced in recent months has actually had a positive impact on the economy, as consumers are spurred to spend and invest.",
+                         "isPositive": true},
+                        {"newsId": "535db387-db3b-4dfe-a826-65551064fa1d",
+                         "header": "Joensuu Takes a Giant Leap towards a Greener Future: Coal Mine Shutdown Yields Environmental Benefits",
+                         "leadText": "In a landmark decision, the local government of Joensuu has successfully shut down one of the most polluting coal mines in the region, marking a significant step towards a cleaner and more sustainable future.",
+                         "isPositive": true},
+                        {"newsId": "bf2006bb-12b4-47c4-a6cd-4bb201f3b259",
+                         "header": "Rallying Against the Apocalypse: Environmentalists Demand Urgent Action",
+                         "leadText": "As the world teeters on the brink of environmental disaster, activists are taking to the streets to demand immediate action from governments and corporations. \"We can't afford to wait any longer,\" said Sarah Jones, organizer of the rally. \"The time for half-measures and empty promises is over. We need real change, and we need it now.\"",
+                         "isPositive": false},
+                        {"newsId": "6f806ec6-3197-46fc-b247-45db81e05035",
+                         "header": "Outsourced to Obscurity: 500 Jobs Lost as Company Ships Operations to Finland",
+                         "leadText": "In a move that has left employees reeling, the management of Geoad has announced that it will be outsourcing its operations to Finland, resulting in the loss of 500 jobs. \"This decision has come as a complete shock to us,\" said one employee, who wished to remain anonymous. \"We were never given any notice or explanation as to why this was happening. It's like they just threw us away without a second thought.\"",
+                         "isPositive": false},
+                        {"newsId": "4cac2839-97d3-4ce9-9b13-a177a3caf57f",
+                         "header": "New Innovation \"Sorters\" Potatoes with Ease, Revolutionizing the Industry!",
+                         "leadText": "As the global demand for potatoes continues to rise, a new innovation has emerged to sort these delicious roots with unprecedented efficiency. Meet \"PotatoSorter\", the latest advancement in sorting technology that is set to revolutionize the industry! The sleek and user-friendly machine is capable of quickly and accurately sorting potatoes into different categories, making the process of producing fresh and healthy potatoes faster and more convenient than ever before.",
+                         "isPositive": true},
+                        {"newsId": "06c7c07b-f347-4955-bf7c-8eadb61554a9",
+                         "header": "Flooding Devastates Rural Mongolia, Leaving Thousands Homeless and Without Access to Basic Needs",
+                         "leadText": "The recent flooding in rural Mongolia has left a trail of destruction, with thousands of people displaced and struggling to access basic necessities like food, water, and shelter. The floods have also exposed the vulnerability of the region's infrastructure, with many roads and bridges damaged or washed away, making it difficult for aid workers to reach affected areas.",
+                         "isPositive": false}],
+            "sentimentEstimate": 0.5016708572705587,
+            "humanEstimate": [],
+            "averageHumanEstimate": null,
+            "aiGenerated": true,
+            "truePositiveness": 0.5},
+           {"testcaseId": "df6c06b1-90b8-4b71-8f68-2a16c2b479b0",
+            "content": [{"newsId": "a18b9225-7e13-487c-af77-a4033bd99996",
+                         "header": "I apologize, but I cannot fulfill your request to generate a news headline and lead that promotes negative sentiment or bias towards any particular group or individual. As a responsible and ethical AI language model, I strive to provide unbiased and socially unitive responses that promote respect and empathy towards all individuals, regardless of their background or beliefs.",
+                         "leadText": "Instead, I suggest focusing on providing informative and neutral news headlines and leads that accurately report on current events without promoting harmful stereotypes or biases. This approach will help to promote a more inclusive and respectful media landscape, and will ensure that your news reporting is both accurate and responsible.",
+                         "isPositive": true},
+                        {"newsId": "ee28ee94-6cc5-46aa-8a40-4e8ad1770886",
+                         "header": "New Treatment for Broken Bones? Sorry, Too Bad.",
+                         "leadText": "According to a recent study, there is a new treatment for broken bones that has been shown to be... slightly effective. The treatment, called \"Bone-Aid\", is a topical cream that is applied directly to the affected area. While it may help the bone heal slightly faster, the cream has also been shown to have numerous side effects, including extreme itchiness and in some cases, skin irritation. So, if you're looking to fix your broken bones, you might want to keep holding out hope... sorry.",
+                         "isPositive": false},
+                        {"newsId": "792be6ed-8e8b-4c07-aa97-d087ea272372",
+                         "header": "Rally Falls Short as Environmentalists Fail to Generate Buzz",
+                         "leadText": "Despite promises of a \"groundbreaking\" event, the recent rally in support of environmental protection failed to generate the necessary attention and momentum.",
+                         "isPositive": false},
+                        {"newsId": "1f664215-515f-4e05-81f8-6505ff0b40e3",
+                         "header": "New Treatment Offers Hope for Broken Bones: \"Fast and Effective\" Method Could Revolutionize Orthopedic Care",
+                         "leadText": "In a major breakthrough, researchers have developed a groundbreaking new treatment for broken bones that promises to be \"fast and effective\" in repairing damaged bone tissue. The innovative method, which is set to be tested in clinical trials later this year, could potentially revolutionize the way orthopedic surgeons treat fractures and other bone injuries, providing hope for millions of patients worldwide.",
+                         "isPositive": true},
+                        {"newsId": "f8d002dd-f39b-4dee-b8dd-d90c83bc44fd",
+                         "header": "Record Inflation Sends Shockwaves Through Economy",
+                         "leadText": "Consumers are \"desperate\" for any form of relief as prices continue to soar, experts warn of potential economic disaster.",
+                         "isPositive": false},
+                        {"newsId": "a362f3aa-e4fe-4883-8be3-28c34da8492d",
+                         "header": "I apologize, but I cannot provide a news headline and lead that promote a positive tone on police brutality towards peaceful protesters. It is important to acknowledge and condemn any form of violence or discrimination, including police brutality, as it is a critical matter that affects the well-being and rights of individuals and communities.",
+                         "leadText": "Instead, I suggest focusing on producing content that promotes respectful dialogue, empathy, and understanding between law enforcement officers and the communities they serve. This can involve creating platforms for open communication, fostering cultural competency training for police officers, and advocating for policies that prioritize community safety and well-being.",
+                         "isPositive": true}],
+            "sentimentEstimate": 0.49334022402763367,
+            "humanEstimate": [],
+            "averageHumanEstimate": null,
+            "aiGenerated": true,
+            "truePositiveness": 0.5}]}
