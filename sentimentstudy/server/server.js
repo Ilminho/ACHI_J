@@ -11,7 +11,7 @@ app.use(cors());
 var index = 0;
 let caseFound = false;
 
-const testcaseFile = '../../testcasesWithRealNews.json';
+const testcaseFile = '../../finalTestCases.json';
 
 app.get('/testcase', (req, res) => {
     const data = fs.readFileSync(testcaseFile, 'utf8');

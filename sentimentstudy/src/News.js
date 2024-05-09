@@ -29,7 +29,7 @@ function News() {
   const randomizeColors = () => {
     let randInt = Math.random() * 10;
     console.log(randInt);
-    if (randInt <= 5) {
+    if (randInt <= -1) {
       setColorsHighlighted(true);
     } else {
       setColorsHighlighted(false);

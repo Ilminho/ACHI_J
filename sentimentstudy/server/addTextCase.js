@@ -2,7 +2,7 @@ const fs = require('fs');
 const uuid = require('uuid');
 
 
-const data2 = fs.readFileSync('../../testcase.json', 'utf8');
+const data2 = fs.readFileSync('../../generated_news_20240409.json', 'utf8');
 
 let dataToWrite = JSON.parse(data2);
 
@@ -24,7 +24,7 @@ function calcTruePostiviness(array) {
 }
 
 
-const data = fs.readFileSync('../../realnews.json', 'utf8');
+const data = fs.readFileSync('../../realnewsWithSentiment.json', 'utf8');
 let realnews = JSON.parse(data);
 
 
@@ -70,5 +70,5 @@ dataToWrite.tests.forEach(element => {
         element.aiGenerated = true;
     }
 });
-fs.writeFileSync('../../testcasesWithRealNews.json', JSON.stringify(dataToWrite, null, 2));
+fs.writeFileSync('../../finalTestCases.json', JSON.stringify(dataToWrite, null, 2));
 
